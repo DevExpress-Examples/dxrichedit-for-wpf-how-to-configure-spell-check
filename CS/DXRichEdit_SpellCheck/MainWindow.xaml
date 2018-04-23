@@ -1,0 +1,24 @@
+﻿<Window x:Class="DXRichEdit_SpellCheckMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <dxre:RichEditUICommand x:Key="commands" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="29" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxb:BarManager Name="barManager1" Grid.Row="1">
+            <dxre:RichEditControl x:Name="richEdit" VerticalAlignment="Stretch" BarManager="{Binding ElementName=barManager1, Mode=OneTime}" ShowBorder="False"/>
+        </dxb:BarManager>
+        <Button Content="Russian Spell Check" Height="23" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="153" Click="button1_Click" />
+    </Grid>
+</Window>
