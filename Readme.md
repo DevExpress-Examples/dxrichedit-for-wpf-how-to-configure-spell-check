@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/DXRichEdit_SpellCheck/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXRichEdit_SpellCheck/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXRichEdit_SpellCheck/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DXRichEdit_SpellCheck/MainWindow.xaml))
+<!-- default file list end -->
 # DXRichEdit for WPF: How to configure spell check in the RichEditControl
 
 
