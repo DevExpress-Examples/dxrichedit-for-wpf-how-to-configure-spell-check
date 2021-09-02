@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DXRichEdit_SpellCheck", "DXRichEdit_SpellCheck\DXRichEdit_SpellCheck.vbproj", "{3234100D-C8F0-451C-9DF6-1D5BB868FEB2}"
+# Visual Studio 16
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DXRichEdit_SpellCheck", "DXRichEdit_SpellCheck\DXRichEdit_SpellCheck.Net5.vbproj", "{3234100D-C8F0-451C-9DF6-1D5BB868FEB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

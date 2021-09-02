@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXRichEdit_SpellCheck", "DXRichEdit_SpellCheck\DXRichEdit_SpellCheck.csproj", "{3234100D-C8F0-451C-9DF6-1D5BB868FEB2}"
 EndProject
 Global
