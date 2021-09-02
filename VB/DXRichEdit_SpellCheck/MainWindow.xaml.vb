@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows
 Imports System.Windows.Input
 Imports DevExpress.Xpf.SpellChecker
@@ -12,6 +11,7 @@ Namespace DXRichEdit_SpellCheckMenu
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Shared dictPath As String = "Dic"
 		Public spellChecker As SpellChecker
 
@@ -92,7 +92,7 @@ Namespace DXRichEdit_SpellCheckMenu
 			Return dict
 		End Function
 		Private Shared Sub dic_DictionaryLoaded(ByVal sender As Object, ByVal e As EventArgs)
-			Dim dictBase As SpellCheckerDictionaryBase = CType(sender, SpellCheckerDictionaryBase)
+			Dim dictBase As SpellCheckerDictionaryBase = DirectCast(sender, SpellCheckerDictionaryBase)
 			If dictBase Is Nothing Then
 				MessageBox.Show(String.Format("Dictionary for {0} culture is not loaded", dictBase.Culture.DisplayName))
 			End If

@@ -17,7 +17,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <dxb:BarManager Name="barManager1" Grid.Row="1">
-            <dxre:RichEditControl x:Name="richEdit" VerticalAlignment="Stretch" BarManager="{Binding ElementName=barManager1, Mode=OneTime}" ShowBorder="False" />
+            <dxre:RichEditControl x:Name="richEdit" VerticalAlignment="Stretch" BarManager="{Binding ElementName=barManager1, Mode=OneTime}" ShowBorder="False"/>
         </dxb:BarManager>
         <Button Content="Russian Spell Check" Height="23" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="153" Click="button1_Click" />
     </Grid>
